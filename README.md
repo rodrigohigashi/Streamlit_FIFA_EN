@@ -21,23 +21,20 @@ Matplotlib & Seaborn: For generating static and interactive visualizations.
 Clone the Repository
 
 bash
-Copiar
-Editar
+
 git clone https://github.com/rodrigohigashi/FIFA-Dashboard.git
 cd FIFA-Dashboard
 Install the Dependencies
 Make sure you have Python installed. Then, install the required libraries:
 
 bash
-Copiar
-Editar
+
 pip install -r requirements.txt
 Run the Streamlit App
 Start the Streamlit dashboard by running:
 
 bash
-Copiar
-Editar
+
 streamlit run app.py
 Access the Dashboard
 Open your browser and navigate to http://localhost:8501.
@@ -59,8 +56,7 @@ Top Nations: Countries such as Brazil, Argentina, and Germany consistently produ
 Position Trends: Forwards tend to have higher market values compared to defenders.
 📂 Project Structure
 bash
-Copiar
-Editar
+
 FIFA-Dashboard/
 ├── data/
 │   └── fifa_players.csv       # Dataset file
@@ -76,3 +72,6 @@ Effective visualization helps uncover patterns and trends in the data.
 Add a player comparison feature to select and compare specific players side-by-side.
 Include a map visualization to highlight players' nationalities.
 Improve performance by optimizing data loading and caching.
+=======
+App created on Streamlit Cloud: (https://appfifaen.streamlit.app/)
+
