@@ -1,4 +1,78 @@
-# Project_Streamlit_FIFA
-The 2017 to 2023 soccer player dataset provides comprehensive information on professional soccer players. The dataset contains a wide range of attributes, including player demographics, physical characteristics, playing statistics, contract details and club affiliations. With over 17,000 records, this dataset offers a valuable resource for soccer analysts, researchers and enthusiasts interested in exploring various aspects of the soccer world, as it allows them to study player attributes, performance metrics, market valuation, club analysis, player positioning and player development over time. The home page features a presentation of the dashboard, along with a link to the database used. The players page shows some information about the players, such as their photo, name, age, height, weight, club they belonged to at the time, market value, weekly salary and termination clause. On the teams page we have the clubs and their respective badges, players and their information.
+🏟️ FIFA Players Dashboard with Streamlit
+📋 Project Overview
+This project focuses on creating an interactive dashboard using Streamlit to explore FIFA players' data. The dashboard allows users to filter, visualize, and analyze player attributes, providing valuable insights into player performance and trends.
 
-App created on Streamlit Cloud: https://appfifadash.streamlit.app/
+Key features include:
+
+Filter players by overall rating, position, and nationality.
+Dynamic visualizations of players' attributes.
+Comparison of players across various metrics.
+An intuitive and responsive user interface powered by Streamlit.
+📊 Dataset
+Source: The dataset used in this project contains player information from FIFA. It includes various attributes such as player names, ratings, positions, nationalities, and more.
+Size: ~18,000 players.
+Columns: Examples include Name, Age, Nationality, Overall, Potential, Value, and Position.
+🛠️ Tools and Technologies
+Python: Main programming language.
+Streamlit: Framework for building interactive dashboards.
+Pandas: For data manipulation and preprocessing.
+Matplotlib & Seaborn: For generating static and interactive visualizations.
+🚀 How to Run the Project
+Clone the Repository
+
+bash
+Copiar
+Editar
+git clone https://github.com/rodrigohigashi/FIFA-Dashboard.git
+cd FIFA-Dashboard
+Install the Dependencies
+Make sure you have Python installed. Then, install the required libraries:
+
+bash
+Copiar
+Editar
+pip install -r requirements.txt
+Run the Streamlit App
+Start the Streamlit dashboard by running:
+
+bash
+Copiar
+Editar
+streamlit run app.py
+Access the Dashboard
+Open your browser and navigate to http://localhost:8501.
+
+📈 Dashboard Features
+Filters and Explorations:
+Filter players by attributes such as:
+Overall rating (e.g., 80+).
+Age range.
+Nationality (e.g., Brazil, Germany).
+Position (e.g., Forward, Goalkeeper).
+Visualizations:
+Player Distribution: Visualize players' ratings, ages, and nationalities.
+Top Players: Identify players with the highest overall ratings.
+Comparisons: Compare players across multiple attributes (e.g., overall, potential, and value).
+🎯 Insights and Observations
+Age Distribution: The majority of players are in their mid-20s, peaking around 24–27 years.
+Top Nations: Countries such as Brazil, Argentina, and Germany consistently produce high-rated players.
+Position Trends: Forwards tend to have higher market values compared to defenders.
+📂 Project Structure
+bash
+Copiar
+Editar
+FIFA-Dashboard/
+├── data/
+│   └── fifa_players.csv       # Dataset file
+├── app.py                     # Streamlit app
+├── requirements.txt           # List of dependencies
+├── README.md                  # Project documentation
+└── assets/                    # Visual assets for the dashboard
+🧠 Lessons Learned
+Streamlit is an excellent framework for quickly creating user-friendly dashboards.
+Preprocessing large datasets is key to ensuring smooth performance in interactive apps.
+Effective visualization helps uncover patterns and trends in the data.
+🌟 Future Improvements
+Add a player comparison feature to select and compare specific players side-by-side.
+Include a map visualization to highlight players' nationalities.
+Improve performance by optimizing data loading and caching.
