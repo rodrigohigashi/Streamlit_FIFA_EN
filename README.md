@@ -69,15 +69,14 @@ FIFA-Dashboard/
 └── assets/                       # Arquivos visuais para o dashboard
 ```
 
-## 🧠 Lições Aprendidas
+## 🧠 Lessons Learned
 
-- **Streamlit** é uma excelente ferramenta para criar dashboards amigáveis de forma rápida.
-- O **pré-processamento de grandes conjuntos de dados** é essencial para garantir um bom desempenho em aplicativos interativos.
-- **Visualizações eficazes** ajudam a descobrir padrões e tendências nos dados.
+- **Streamlit** is an excellent framework for quickly creating user-friendly dashboards.
+- **Preprocessing large datasets** is key to ensuring smooth performance in interactive apps.
+- **Effective visualization** helps uncover patterns and trends in the data.
 
-## 🌟 Melhorias Futuras
+## 🌟 Future Improvements
 
-- Adicionar uma **função de comparação de jogadores** para selecionar e comparar jogadores lado a lado.
-- Incluir uma **visualização no mapa** para destacar as nacionalidades dos jogadores.
-- Melhorar o **desempenho** otimizando o carregamento de dados e utilizando cache.
-
+- Add a **player comparison feature** to select and compare specific players side-by-side.
+- Include a **map visualization** to highlight players' nationalities.
+- Improve **performance** by optimizing data loading and caching.
