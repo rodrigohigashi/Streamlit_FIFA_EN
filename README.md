@@ -57,13 +57,18 @@ Position Trends: Forwards tend to have higher market values compared to defender
 📂 Project Structure
 bash
 
+### Estrutura do Projeto
+
+```plaintext
 FIFA-Dashboard/
-├── data/
-│   └── fifa_players.csv       # Dataset file
-├── app.py                     # Streamlit app
-├── requirements.txt           # List of dependencies
-├── README.md                  # Project documentation
-└── assets/                    # Visual assets for the dashboard
+├── data/                         # Pasta com os dados
+│   └── fifa_players.csv          # Arquivo com o dataset
+├── app.py                        # Aplicação Streamlit
+├── requirements.txt              # Dependências do projeto
+├── README.md                     # Documentação do projeto
+└── assets/                       # Arquivos visuais para o dashboard
+```
+
 🧠 Lessons Learned
 Streamlit is an excellent framework for quickly creating user-friendly dashboards.
 Preprocessing large datasets is key to ensuring smooth performance in interactive apps.
