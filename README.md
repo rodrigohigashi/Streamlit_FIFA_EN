@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 🏟️ FIFA Players Dashboard with Streamlit
 
 ### 📋 Project Overview
@@ -100,3 +101,38 @@ FIFA-Dashboard/
 - Add a **player comparison feature** to select and compare specific players side-by-side.
 - Include a **map visualization** to highlight players' nationalities.
 - Improve **performance** by optimizing data loading and caching.
+=======
+🏟️ FIFA Players Dashboard
+📋 Overview / Visão Geral
+
+This project presents an interactive dashboard built with Streamlit to explore FIFA players’ data.
+Este projeto apresenta um dashboard interativo criado com Streamlit para explorar dados de jogadores de FIFA.
+
+The dashboard allows filtering, visualization, and analysis of player attributes.
+O dashboard permite filtrar, visualizar e analisar atributos dos jogadores.
+
+Note: The PT and EN versions use slightly different interface sizing, but the content is identical.
+Nota: As versões PT e EN usam tamanhos de interface ligeiramente diferentes, mas o conteúdo é o mesmo.
+
+🌐 Access the Dashboards / Acesse os Dashboards
+
+English / EN: FIFA Dashboard EN
+
+Português / PT: FIFA Dashboard PT
+
+📄 Documentation / Documentação
+
+English README: docs/README_EN.md
+
+Português README: docs/README_PT.md
+
+🛠️ Tools / Tecnologias
+
+Python
+
+Streamlit
+
+Pandas
+
+Matplotlib & Seaborn
+>>>>>>> 4cb813d (Atualizações do projeto)
